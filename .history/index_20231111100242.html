@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        #main {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 70%;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #ff0000;
+        }
+
+        #buttons {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        #subscribe {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 8px 15px;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #butts {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        #desc {
+            margin-top: 20px;
+        }
+
+        dl {
+            margin-top: 20px;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #ff0000;
+        }
+
+        dd {
+            margin-left: 20px;
+        }
+
+        aside {
+            width: 25%;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        div b {
+            color: #ff0000;
+        }
+
+        div p {
+            color: #606060;
+        }
+
+        .channel-info {
+            margin-left: 10px;
+        }
+
+        .channel-info:first-child {
+            color: #3498db;
+        }
+
+        .channel-info:nth-child(2) {
+            color: #e74c3c; 
+        }
+
+        .channel-info:last-child {
+            color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="main">
+            <iframe width="900" height="400" src="https://www.youtube.com/embed/kww262qPEdI?si=N8Im9SmYWRMN4fCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1>Beaver cool song</h1>
+            <div id="buttons">
+                <img src="https://cdn-icons-png.flaticon.com/512/2815/2815428.png" width="45px" height="45px">
+                <div class="channel-info"><b>Beaver Channel 1</b><p>4500 subscribers</p></div>
+                <div id="subscribe">Subscribe</div>
+                <div id="butts"><div style="border-right: 1px rgb(128, 128, 128) solid;">Like</div><div></div>dislike</div>
+                <div id="butts">Share</div>
+            </div>
+            <div id="desc">
+                <h3>500 views</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi voluptatem maiores reiciendis sint dolore veritatis, ullam at eum, laudantium asperiores quis saepe repudiandae, exercitationem beatae possimus ratione recusandae consequatur?
+            </div>
+            <dl>
+                <dt>Channel</dt>
+                <dd>Beavers Channel 1</dd>
+                <dt>Content</dt>
+                <dd>Video</dd>
+                <dt>Animals</dt>
+                <dd>Beavers</dd>
+                <dt>Most rated moments</dt>
+                <dd>1:23</dd>
+            </dl>
+        </div>
+        <aside>
+            <div>
+                <video autoplay loop>
+                    <source src="https://www.youtube.com/embed/mbBnhaB_hJo?si=jl_4A8uPaZTE3AqO&amp;controls=0">
+                </video>
+                <div style="border: 0;" class="channel-info">
+                    <b>Beaver Clip</b>
+                    <p>Beaver Channel 2</p>
+                    <p>1 views</p>
+                </div>
+            </div>
+            <div>
+                <video autoplay loop>
+                    <source src="https://www.youtube.com/embed/mbBnhaB_hJo?si=jl_4A8uPaZTE3AqO&amp;controls=0">
+                </video>
+                <div style="border: 0;" class="channel-info">
+                    <b>Beaver Song</b>
+                    <p>Beaver Channel 3</p>
+                    <p>234322 views</p>
+                </div>
+            </div>
+            <div>
+                <video autoplay loop>
+                    <source src="https://www.youtube.com/embed/mbBnhaB_hJo?si=jl_4A8uPaZTE3AqO&amp;controls=0">
+                </video>
+                <div style="border: 0;" class="channel-info">
+                    <b>Beaver Boring</b>
+                    <p>Beaver Channel 4</p>
+                    <p>324234 views</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
